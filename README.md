@@ -33,6 +33,7 @@ This is my solution to the [Huddle landing page with single introductory section
 - Sass partial files
 - Mobile-first workflow
 - BEM methodology
+- Font Awesome
 
 ## Author
 
