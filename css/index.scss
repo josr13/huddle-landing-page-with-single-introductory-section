@@ -58,8 +58,41 @@ body {
                     background: white;
                     border-radius: 50px;
                     padding: 1em 6em;
-                    margin: 1em;
+                    margin-top: 1em;
                 }
+            }
+        }
+    }
+
+    footer {
+        width: 45%;
+        margin: auto;
+
+        .socials {
+            display: flex;
+            flex-direction: row;
+            font-size: 1.85rem;
+            justify-content: center;
+            justify-content: space-evenly;
+
+            &__fb {
+                border: 1px solid; 
+                border-radius: 3em; 
+                padding: 0.5em 0.75em;
+            }
+
+            &__tw {
+                border: 1px solid;
+                border-radius: 50px;
+                padding: 0.5em 0.55em;
+                text-align: center;
+            }
+
+            &__ig {
+                border: 1px solid;
+                border-radius: 50px;
+                padding: 0.5em 0.6em;
+                text-align: center;
             }
         }
     }

@@ -51,5 +51,33 @@ body main .landing__intro__cta {
   background: white;
   border-radius: 50px;
   padding: 1em 6em;
-  margin: 1em;
+  margin-top: 1em;
+}
+body footer {
+  width: 45%;
+  margin: auto;
+}
+body footer .socials {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.85rem;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+body footer .socials__fb {
+  border: 1px solid;
+  border-radius: 3em;
+  padding: 0.5em 0.75em;
+}
+body footer .socials__tw {
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 0.5em 0.55em;
+  text-align: center;
+}
+body footer .socials__ig {
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 0.5em 0.6em;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
