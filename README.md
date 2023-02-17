@@ -20,7 +20,7 @@ This is my solution to the [Huddle landing page with single introductory section
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-wsingle-intro-using-flexbox-sass-bem-Wtbx0HfYUr)
 - Live Site URL: [GitHub Pages](https://josr13.github.io/huddle-landing-page-with-single-introductory-section/)
 
 ## My process
