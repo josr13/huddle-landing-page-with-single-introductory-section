@@ -1,7 +1,7 @@
 @import 'variables';
 
 :root {
-    background: $violet url("/images/bg-mobile.svg") top no-repeat;
+    background: $violet url("../images/bg-mobile.svg") top no-repeat;
     background-size: contain;
     color: white;
     font-weight: 400;
@@ -128,7 +128,7 @@ body {
 
 @media only screen and (min-width: 1440px) {
     :root {
-        background: $violet url("/images/bg-desktop.svg") left top no-repeat;
+        background: $violet url("../images/bg-desktop.svg") left top no-repeat;
         background-size: auto;
     }
 

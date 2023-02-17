@@ -1,5 +1,5 @@
 :root {
-  background: hsl(257deg, 40%, 49%) url("/images/bg-mobile.svg") top no-repeat;
+  background: hsl(257deg, 40%, 49%) url("../images/bg-mobile.svg") top no-repeat;
   background-size: contain;
   color: white;
   font-weight: 400;
@@ -108,7 +108,7 @@ body footer .socials__ig:hover {
 
 @media only screen and (min-width: 1440px) {
   :root {
-    background: hsl(257deg, 40%, 49%) url("/images/bg-desktop.svg") left top no-repeat;
+    background: hsl(257deg, 40%, 49%) url("../images/bg-desktop.svg") left top no-repeat;
     background-size: auto;
   }
   body {
