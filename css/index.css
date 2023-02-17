@@ -62,7 +62,6 @@ body footer .socials {
   display: flex;
   flex-direction: row;
   font-size: 1.85rem;
-  justify-content: center;
   justify-content: space-evenly;
 }
 body footer .socials__fb {
@@ -81,4 +80,62 @@ body footer .socials__ig {
   border-radius: 50px;
   padding: 0.5em 0.6em;
   text-align: center;
+}
+
+@media only screen and (min-width: 1440px) {
+  :root {
+    background: hsl(257deg, 40%, 49%) url("/images/bg-desktop.svg") left top no-repeat;
+    background-size: auto;
+  }
+  body {
+    padding: 4em 5em;
+  }
+  body header {
+    padding-bottom: 4.25em;
+  }
+  body main .landing {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  body main .landing__intro {
+    margin: 3em 0 0 4em;
+    text-align: start;
+  }
+  body main .landing__intro__desc {
+    font-size: 2.6rem;
+  }
+  body main .landing__intro__body {
+    font-size: 1.2rem;
+  }
+  body main .landing__intro__cta {
+    font-size: 1.25rem;
+    padding: 0.75em 3.25em;
+    margin-top: 0.5em;
+  }
+  body footer {
+    width: 100vw;
+    margin: 0;
+  }
+  body footer .socials {
+    display: flex;
+    font-size: 1.15rem;
+    justify-content: space-between;
+    position: absolute;
+    right: 5em;
+    bottom: 2em;
+    width: 10vw;
+  }
+  body footer .socials__fb {
+    border-radius: 50%;
+    padding: 0.5em 0.8em;
+  }
+  body footer .socials__tw {
+    border-radius: 50%;
+    padding: 0.5em 0.61em;
+  }
+  body footer .socials__ig {
+    border-radius: 50%;
+    padding: 0.5em 0.7em;
+  }
 }/*# sourceMappingURL=index.css.map */

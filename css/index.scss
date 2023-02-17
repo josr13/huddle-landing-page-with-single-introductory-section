@@ -73,7 +73,6 @@ body {
             display: flex;
             flex-direction: row;
             font-size: 1.85rem;
-            justify-content: center;
             justify-content: space-evenly;
 
             &__fb {
@@ -94,6 +93,78 @@ body {
                 border-radius: 50px;
                 padding: 0.5em 0.6em;
                 text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    :root {
+        background: $violet url("/images/bg-desktop.svg") left top no-repeat;
+        background-size: auto;
+    }
+
+    body {
+        padding: 4em 5em;
+
+        header {
+            padding-bottom: 4.25em;
+        }
+
+        main {
+            .landing {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+
+                &__intro {
+                    margin: 3em 0 0 4em;
+                    text-align: start;
+
+                    &__desc {
+                        font-size: 2.6rem;
+                    }
+    
+                    &__body {
+                        font-size: 1.2rem;
+                    }
+    
+                    &__cta {
+                        font-size: 1.25rem;
+                        padding: 0.75em 3.25em;
+                        margin-top: 0.5em;
+                    }
+                }
+            }
+        }
+
+        footer {
+            width: 100vw;
+            margin: 0;
+
+            .socials {
+                display: flex;
+                font-size: 1.15rem;
+                justify-content: space-between;
+                position: absolute;
+                right: 5em;
+                bottom: 2em;
+                width: 10vw;
+    
+                &__fb {
+                    border-radius: 50%; 
+                    padding: 0.5em 0.8em;
+                }
+    
+                &__tw {
+                    border-radius: 50%;
+                    padding: 0.5em 0.61em;
+                }
+    
+                &__ig {
+                    border-radius: 50%;
+                    padding: 0.5em 0.7em;
+                }
             }
         }
     }
