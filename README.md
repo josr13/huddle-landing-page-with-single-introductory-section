@@ -9,6 +9,7 @@ This is my solution to the [Huddle landing page with single introductory section
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -20,7 +21,7 @@ This is my solution to the [Huddle landing page with single introductory section
 ### Links
 
 - Solution URL: [Frontend Mentor]()
-- Live Site URL: [GitHub Pages]()
+- Live Site URL: [GitHub Pages](https://josr13.github.io/huddle-landing-page-with-single-introductory-section/)
 
 ## My process
 
@@ -34,6 +35,17 @@ This is my solution to the [Huddle landing page with single introductory section
 - Mobile-first workflow
 - BEM methodology
 - Font Awesome
+
+### What I learned
+
+While working through this project, I learned Font Awesome, an icon library. 
+```html
+<div class="socials">
+  <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="socials__tw">
+    <i class="fa-brands fa-twitter"></i>
+  </a>
+</div>
+```
 
 ## Author
 
