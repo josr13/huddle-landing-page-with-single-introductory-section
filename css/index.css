@@ -66,21 +66,19 @@ body footer .socials {
   justify-content: space-evenly;
 }
 body footer .socials__fb {
-  border: 1px solid;
-  border-radius: 3em;
-  padding: 0.5em 0.75em;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 0.4em 0.65em;
 }
 body footer .socials__tw {
-  border: 1px solid;
-  border-radius: 50px;
-  padding: 0.5em 0.55em;
-  text-align: center;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 0.4em 0.45em;
 }
 body footer .socials__ig {
-  border: 1px solid;
-  border-radius: 50px;
-  padding: 0.5em 0.6em;
-  text-align: center;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 0.4em 0.5em;
 }
 
 @media only screen and (min-width: 1440px) {

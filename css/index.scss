@@ -77,23 +77,21 @@ body {
             justify-content: space-evenly;
 
             &__fb {
-                border: 1px solid; 
-                border-radius: 3em; 
-                padding: 0.5em 0.75em;
+                border: 2px solid; 
+                border-radius: 50%; 
+                padding: 0.4em 0.65em;
             }
 
             &__tw {
-                border: 1px solid;
-                border-radius: 50px;
-                padding: 0.5em 0.55em;
-                text-align: center;
+                border: 2px solid;
+                border-radius: 50%;
+                padding: 0.4em 0.45em;
             }
 
             &__ig {
-                border: 1px solid;
-                border-radius: 50px;
-                padding: 0.5em 0.6em;
-                text-align: center;
+                border: 2px solid;
+                border-radius: 50%;
+                padding: 0.4em 0.5em;
             }
         }
     }
