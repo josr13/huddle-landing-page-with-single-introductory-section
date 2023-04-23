@@ -1,5 +1,5 @@
 :root {
-  background: hsl(257deg, 40%, 49%) url("../images/bg-mobile.svg") top no-repeat;
+  background: hsl(257, 40%, 49%) url("../images/bg-mobile.svg") top no-repeat;
   background-size: contain;
   color: white;
   font-weight: 400;
@@ -48,15 +48,15 @@ body main .landing__intro__cta {
   font-family: "Poppins", sans-serif;
   font-size: 1.75rem;
   font-weight: 400;
-  color: hsl(257deg, 40%, 49%);
+  color: hsl(257, 40%, 49%);
   background: white;
   border-radius: 50px;
   padding: 1em 6em;
   margin-top: 1em;
-  box-shadow: 2px 6px 10px 4px hsla(0deg, 0%, 0%, 0.25);
+  box-shadow: 2px 6px 10px 4px hsla(0, 0%, 0%, 0.25);
 }
 body main .landing__intro__cta:hover {
-  background: hsl(300deg, 69%, 71%);
+  background: hsl(300, 69%, 71%);
   color: white;
   font-weight: 600;
   transform: scale(1.05);
@@ -78,8 +78,8 @@ body footer .socials__fb {
   padding: 0.4em 0.65em;
 }
 body footer .socials__fb:hover {
-  border-color: hsl(300deg, 69%, 71%);
-  background-color: hsl(300deg, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+  background-color: hsl(300, 69%, 71%);
   transform: scale(1.1);
   transition: 0.75s ease;
 }
@@ -89,8 +89,8 @@ body footer .socials__tw {
   padding: 0.4em 0.45em;
 }
 body footer .socials__tw:hover {
-  border-color: hsl(300deg, 69%, 71%);
-  background-color: hsl(300deg, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+  background-color: hsl(300, 69%, 71%);
   transform: scale(1.1);
   transition: 0.75s ease;
 }
@@ -100,15 +100,15 @@ body footer .socials__ig {
   padding: 0.4em 0.5em;
 }
 body footer .socials__ig:hover {
-  border-color: hsl(300deg, 69%, 71%);
-  background-color: hsl(300deg, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+  background-color: hsl(300, 69%, 71%);
   transform: scale(1.1);
   transition: 0.75s ease;
 }
 
 @media only screen and (min-width: 1440px) {
   :root {
-    background: hsl(257deg, 40%, 49%) url("../images/bg-desktop.svg") left top no-repeat;
+    background: hsl(257, 40%, 49%) url("../images/bg-desktop.svg") left top no-repeat;
     background-size: auto;
   }
   body {
@@ -177,5 +177,20 @@ body footer .socials__ig:hover {
   body footer .socials__ig:hover {
     transform: scale(1.3);
     transition: 0.6s ease;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  :root {
+    background: hsl(257, 40%, 49%) url("../images/bg-desktop.svg") left top no-repeat;
+    background-size: 85%;
+  }
+  body main .landing__intro__desc {
+    font-size: 3.25rem;
+  }
+  body main .landing__intro__body {
+    font-size: 1.75rem;
+  }
+  body main .landing__intro__cta {
+    font-size: 1.5rem;
   }
 }/*# sourceMappingURL=index.css.map */
